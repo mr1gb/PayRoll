@@ -1,0 +1,36 @@
+/* Στρογγυλεμένες άκρες και ανοιχτό γκρι χρώμα για το παράθυρο */
+.root {
+    -fx-background-color: #d3d3d3; /* Ανοιχτό γκρι */
+    -fx-background-radius: 20; /* Στρογγυλεμένες άκρες */
+    -fx-padding: 10; /* Κενό γύρω από το περιεχόμενο */
+    -fx-background-image: url("background.png"); /* Εικόνα φόντου */
+    -fx-background-size: cover; /* Καλύπτει ολόκληρο το παράθυρο */
+}
+
+/* Στρογγυλεμένες άκρες για το μενού */
+.menu-bar {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Λευκό φόντο με διαφάνεια */
+    -fx-background-radius: 20; /* Στρογγυλεμένες άκρες */
+    -fx-border-radius: 20; /* Στρογγυλεμένες άκρες του περιγράμματος */
+    -fx-padding: 5; /* Κενό γύρω από τα μενού */
+}
+
+/* Στυλ για τα menu items */
+.menu-item {
+    -fx-background-color: transparent; /* Διαφανές φόντο */
+}
+
+.menu-item:hover {
+    -fx-background-color: rgba(100, 100, 100, 0.5); /* Φόντο όταν ο χρήστης περνά το ποντίκι πάνω */
+}
+
+/* Στυλ για τα κουμπιά της εργαλειοθήκης */
+.button {
+    -fx-background-color: rgba(200, 200, 200, 0.7); /* Ελαφρύ γκρι */
+    -fx-background-radius: 5; /* Ελαφρές στρογγυλεμένες άκρες */
+    -fx-text-fill: black; /* Χρώμα κειμένου */
+}
+
+.button:hover {
+    -fx-background-color: rgba(150, 150, 150, 0.8); /* Σκοτεινότερο γκρι κατά την επαφή */
+}
